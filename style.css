@@ -1,7 +1,9 @@
 * {
   font-family: nunito;
 }
-
+.d-block{
+  height: 87vh;
+}
 .bi-flower1 {
   color: rgba(245, 8, 8, 0.91);
   font-size: 1.6rem;
@@ -86,4 +88,15 @@ span {
 }
 .bi-check-circle{
   color: green;
+}
+.bg{
+  
+  width: 100%;
+  align-self: center;
+  text-align: center;
+}
+@media(max-width:500px) {
+  .d-block{
+  height: 50vh;
+}
 }
