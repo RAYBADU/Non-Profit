@@ -97,6 +97,6 @@ span {
 }
 @media(max-width:500px) {
   .d-block{
-  height: 50vh;
+  height: 40vh;
 }
 }
