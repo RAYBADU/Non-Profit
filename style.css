@@ -77,6 +77,8 @@
   border: none;
   border-radius: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease-in-out;
+
 }
 .card-link {
   color: black;
@@ -88,6 +90,11 @@ hr {
   color: #eda30c;
   width: 60px;
   margin-left: 6rem;
+}
+.team-hr,.mission-hr,.get-in-touch-hr,.donations-hr{
+ margin: 0 auto;
+ margin-bottom: 2rem;
+
 }
 .about-text {
   font-weight: 600;
@@ -116,4 +123,11 @@ span {
 }
 .bi-star-fill,.bi-star-half{
   color: rgb(231, 181, 19);
+}
+@media (min-width:768px) {
+  .card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
 }
