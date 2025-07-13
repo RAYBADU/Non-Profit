@@ -2,8 +2,22 @@
   font-family: nunito;
 }
 .d-block{
-  height: 87vh;
+  height: 100vh;
 }
+
+@media (max-width:480px) {
+  .d-block{
+  height: 50vh;
+}
+}
+@media (max-width:768px) {
+   .d-block{
+  height: 50vh;
+}
+}
+
+
+
 .bi-flower1 {
   color: rgba(245, 8, 8, 0.91);
   font-size: 1.6rem;
@@ -99,4 +113,7 @@ span {
   .d-block{
   height: 40vh;
 }
+}
+.bi-star-fill,.bi-star-half{
+  color: rgb(231, 181, 19);
 }
